@@ -62,28 +62,28 @@ const speed = 20;
 ```
 
 **4 -** Implemente o evento de `keydown` no elemento `body`:
-- se o usuário pressionar a tecla `a`, desloque a nave para a esquerda;
-- se o usuário pressionar a tecla `d`, desloque a nave para a direita;
-- se o usuário pressionar a tecla `w`, desloque a nave para cima;
-- se o usuário pressionar a tecla `s`, desloque a nave para baixo;
-- se o usuário pressionar a tecla `Esc`, reposicione a nave no centro da tela;
-- a cada movimento, a nave deve se deslocar a quantidade de pixels indicada na variável `speed`.
+- Se o usuário pressionar a tecla `a`, desloque a nave para a esquerda;
+- Se o usuário pressionar a tecla `d`, desloque a nave para a direita;
+- Se o usuário pressionar a tecla `w`, desloque a nave para cima;
+- Se o usuário pressionar a tecla `s`, desloque a nave para baixo;
+- Se o usuário pressionar a tecla `Esc`, reposicione a nave no centro da tela;
+- A cada movimento, a nave deve se deslocar a quantidade de pixels indicada na variável `speed`.
 
 **Dicas:** 
 - Como no CSS definimos a propriedade `position: absolute`, para alterar a posição da nave, definimos as distâncias, em pixels, da borda esquerda (`left`) e da borda superior (`top`) da página. Para isso:
-	- atualize as variáveis `posX` e `posY` com a nova posição da nave;
+	- Atualize as variáveis `posX` e `posY` com a nova posição da nave;
 		- se a nave vai para a esquerda: `posX -= speed;`
 		- se a nave vai para a direita: `posX += speed;`
 		- se a nave vai para cima: `posY -= speed;`
 		- se a nave vai para baixo: `posY += speed;`
-	- altere as propriedades `left` e `top` do elemento que representa a nave:
+	- Altere as propriedades `left` e `top` do elemento que representa a nave:
 	```js
  	spaceship.style.left = posX + 'px';
  	spaceship.style.top = posY + 'px';
  	```
-	- lembre que você está definindo um estilo CSS, por isso o `'px'` concatenado!
-- use a propriedade `event.key` para identificar qual tecla foi pressionada;
-- para verificar se usuário pressionou a tecla `Esc`, veja se `event.key === 'Escape'`.
+	- Lembre que você está definindo um estilo CSS, por isso o `'px'` concatenado!
+- Use a propriedade `event.key` para identificar qual tecla foi pressionada;
+- Para verificar se usuário pressionou a tecla `Esc`, veja se `event.key === 'Escape'`.
 
 
 **5 -** Altere o código para garantir que o movimento seja realizado tanto com letras maiúsculas ou minúsculas.
