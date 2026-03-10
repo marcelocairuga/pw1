@@ -31,6 +31,6 @@ Por favor, preencha os campos corretamente!
 **Observação:** para selecionar os elementos, use apenas o método `querySelector()`.
 
 **Dicas**
-- para limpar um campo, você pode usar `.value = ''`;
+- Para limpar um campo, você pode usar `.value = ''`;
 - para fazer um elemento receber o foco, use `.focus()`;
  
