@@ -19,7 +19,7 @@ Por favor, preencha os campos corretamente!
 **1 -** Prepare os arquivos:
 - Crie um arquivo chamado `index.html` com os elementos indicados acima, no corpo da página;
 - Crie um arquivo chamado `script.js`;
-- No arquivo HTML, adicione uma tag `<script>` dentro do `<head>`, garantindo que o script seja executado apenas após o carregamento do documento.
+- No arquivo HTML, adicione uma tag `<script>` dentro do elemento `<head>`, garantindo que o script seja executado apenas após o carregamento do documento.
 
 **2 -** Implemente o evento `click` do botão:
 - Obtenha os valores informados para o nome e a idade;
