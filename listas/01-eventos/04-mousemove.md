@@ -53,7 +53,8 @@ p span {
 - crie uma variável `isDragging` para controlar se o quadrado está ou não sendo arrastado:
 	- quando o usuário pressiona o botão do mouse **sobre o quadrado**, a variável recebe `true`;
 	- quando o usuário solta o botão do mouse, **mesmo que fora do quadrado**, a variável recebe `false`, pois nada mais sendo arrastado;
-- assim, implemente os eventos de `mousedown` e `mouseup` para atualizar a variável de controle. - - escolha adequadamente os elementos!
+- assim, implemente os eventos de `mousedown` e `mouseup` para atualizar a variável de controle.
+- escolha adequadamente os elementos!
 
 **4 -** Implemente o evento de `mousemove`:
 - quando o mouse se move e **apenas se o quadrado estiver sendo arrastado**:
