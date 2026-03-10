@@ -83,7 +83,6 @@ const speed = 20;
  	```
 	- lembre que você está definindo um estilo CSS, por isso o `'px'` concatenado!
 - use a propriedade `event.key` para identificar qual tecla foi pressionada;
-- utilize as propriedades `style.left` e `style.top` para definir a nova posição da nave após cada movimento;
 - para verificar se usuário pressionou a tecla `Esc`, veja se `event.key === 'Escape'`.
 
 
