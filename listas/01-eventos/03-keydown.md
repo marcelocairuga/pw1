@@ -7,13 +7,13 @@ Uma página web possui uma imagem de uma espaçonave:
 A nave **Hope 1** está viajando pelo espaço e o usuário pode controlá-la:
 - as teclas `a` e `d` deslocam a nave na horizontal;
 - as teclas `w` e `s` deslocam a nave na vertical; 
-- a tecla `Esc` leva a nave de volta para à posição inicial no centro da tela.
+- a tecla `Esc` leva a nave de volta à posição inicial no centro da tela.
 
 **1 -** Prepare os arquivos:
 - Crie um arquivo chamado `index.html` com o elemento indicado acima, no corpo da página;
 - Crie um arquivo chamado `script.js`;
 - No arquivo HTML, adicione uma tag `<script>` dentro do elemento `<head>`, para carregar o arquivo `script.js`. Garanta que o script seja executado apenas após o carregamento do documento;
-- Crie um arquivo chamado`styles.css` 
+- Crie um arquivo chamado `styles.css` 
 - No arquivo HTML, adicione uma tag `<link>` dentro do elemento `<head>` para carregar o arquivo de estilos `styles.css`.
 - Copie o arquivo `hope1.png` para a pasta onde estão os demais arquivos do projeto;
 
@@ -70,9 +70,21 @@ const speed = 20;
 - a cada movimento, a nave deve se deslocar a quantidade de pixels indicada na variável `speed`.
 
 **Dicas:** 
+- Como no CSS definimos a propriedade `position: absolute`, para alterar a posição da nave, definimos as distâncias, em pixels, da borda esquerda (`left`) e da borda superior (`top`) da página. Para isso:
+	- atualize as variáveis `posX` e `posY` com a nova posição da nave;
+		- se a nave vai para a esquerda: `posX -= speed;`
+		- se a nave vai para a direita: `posX += speed;`
+		- se a nave vai para cima: `posY -= speed;`
+		- se a nave vai para baixo: `posY += speed;`
+	- altere as propriedades `left` e `top` do elemento que representa a nave:
+	```js
+ 	spaceship.style.left = posX + 'px';
+ 	spaceship.style.top = posY + 'px';
+ 	```
+	- lembre que você está definindo um estilo CSS, por isso o `'px'` concatenado!
 - use a propriedade `event.key` para identificar qual tecla foi pressionada;
 - utilize as propriedades `style.left` e `style.top` para definir a nova posição da nave após cada movimento;
-- para verificar se usuário pressionou a tecla `Esc`, veja se `event.key == 'Escape'`.
+- para verificar se usuário pressionou a tecla `Esc`, veja se `event.key === 'Escape'`.
 
 
 **5 -** Altere o código para garantir que o movimento seja realizado tanto com letras maiúsculas ou minúsculas.
