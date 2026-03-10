@@ -34,5 +34,5 @@ F = C * 9 / 5 + 32
 **Observação:** para selecionar os elementos, use apenas o método `querySelector()`.
 
 **3 -** Altere o tipo de evento para `change` e explique o que mudou no comportamento da aplicação.
-
+- Para responder, deixei um comentário no arquivo `script.js`.
  
