@@ -7,14 +7,12 @@ Uma página web possui os seguintes elementos HTML:
 <button id="send">Enviar</button>
 <p id="result"></p>
 ```
-- Na caixa de texto com id `name` o usuário deve informar o seu nome;
-- Na caixa de texto com id `age` o usuário deve informar a sua idade;
-- Ao clicar no botão `Enviar` (id `send`), deve ser exibida uma mensagem no seguinte formato:
+- O usuário informa o seu nome e a sua idade;
+- Ao clicar no botão `Enviar`, um parágrafo no corpo da página exibe uma mensagem no seguinte formato:
 ``` 
-Olá, Elesbão! Você tem 7 anos.
+Olá, Elesbão! Você tem 27 anos.
 ```
-- A mensagem deve ser exibida através do parágrafo com id `result`;
-- Caso o nome ou a idade não sejam informados, deve ser emitido um alerta com a seguinte mensagem:
+- Caso o nome ou a idade não sejam informados, um alerta é emitido com a seguinte mensagem:
 ```
 Por favor, preencha os campos corretamente!
 ```
