@@ -1,6 +1,6 @@
 # Exercício 05 - Bubbling
 
-Uma página web possui os seguintes elementos HTML:
+Uma página web possui uma lista de sabores de pizza:
 ```html 
 <h1>Menu de Pizzas</h1>
 <ul id="pizzas">
@@ -18,12 +18,12 @@ Uma página web possui os seguintes elementos HTML:
     <li>Rúcula e Tomate Seco</li>
 </ul>
 ```
-Trata-se do menu de sabores de uma pizzaria.
-- Um clique duplo sobre um item da lista, o seleciona, mudando sua cor para verde e emitindo um alerta no seguinte formato:
+Trata-se do menu de uma pizzaria.
+- Um clique duplo sobre um item da lista o seleciona, mudando sua cor para verde e emitindo um alerta no seguinte formato:
 ```
 Você selecionou o sabor Calabresa!
 ```
-- Um clique duplo sobre um item já selecionado, o remove, mudando sua cor de volta para preto e emitindo um alerta no seguinte formato:
+- Um clique duplo sobre um item já selecionado o remove, mudando sua cor de volta para preto e emitindo um alerta no seguinte formato:
 ```
 Você removeu o sabor Calabresa!
 ```
@@ -47,7 +47,7 @@ Você removeu o sabor Calabresa!
 
 **3 -** Implemente o evento de `dblclick` para controlar a seleção de sabores.
 - Use apenas um `addEventListener` no elemento `ul`;
-- Verifique se o elemento que disparou o evento é um item de lista (`tagName === 'LI'`);
+- Verifique se o elemento que disparou o evento é um  item de lista (`<li>`), verificando se `tagName === 'LI'`;
 - Como ainda não aprendemos a usar a propriedade `classList`, você pode controlar a seleção diretamente pela propriedade (`style.color === 'green'`); 
 
 
