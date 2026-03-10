@@ -1,6 +1,6 @@
 # Exercício 04 - Mousemove
 
-Uma página web possui um quadrado vermelho:
+Uma página web possui um objeto quadrado:
 ```html 
 <div id="square">
     <p>X: <span id="pos-x">0</span></p>
