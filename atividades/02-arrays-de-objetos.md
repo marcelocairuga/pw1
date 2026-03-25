@@ -23,10 +23,10 @@ Em um arquivo chamado `script.js`, crie um array de objetos chamado
 Utilizando o comando `for`, percorra o array e imprima no console a
 seguinte saída:
 ```
-Elesbão tem um limite de R\$ 4.500,00\
-Genoveva tem um limite de R\$ 5.750,00\
-Marvelino tem um limite de R\$ 9.980,00\
-Marieta tem um limite de R\$ 2.600,00
+Elesbão tem um limite de R$ 4.500,00
+Genoveva tem um limite de R$ 5.750,00
+Marvelino tem um limite de R$ 9.980,00
+Marieta tem um limite de R$ 2.600,00
 ```
 ------------------------------------------------------------------------
 
