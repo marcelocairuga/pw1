@@ -9,7 +9,7 @@
 Em um arquivo chamado `script.js`, crie um array de objetos chamado
 `clientes` para representar o seguinte conjunto de dados:
 
-| Nome       | E-mail              | Limite |
+| nome       | email              | limite |
 |------------|---------------------|--------|
 | Elesbão    | elesbao@email.com   | 4500   |
 | Genoveva   | genoveva@email.com  | 5750   |
